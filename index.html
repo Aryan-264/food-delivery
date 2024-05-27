@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best food delivering|toma.com</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        /* background-color: black; */
+        color: white;
+        font-family: cursive;
+      }
+      article {
+        position: relative;
+      }
+      header {
+        position: sticky;
+        top: 0px;
+      }
+      .navbar::before {
+        content: "";
+        background-color: gray;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.4;
+        height: 100%;
+        width: 100%;
+      }
+      .navbar {
+        display: flex;
+        position: sticky;
+        /* border: 2px solid red; */
+      }
+      .items {
+        margin-left: 60px;
+        margin-top: 10px;
+      }
+      .items a {
+        text-decoration: none;
+        color: white;
+      }
+      .logo img {
+        margin-left: 30px;
+        margin-top: 3px;
+        width: 40px;
+        height: 40px;
+      }
+      article::before {
+        content: "";
+        background: url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_1280.jpg");
+        position: absolute;
+        z-index: -1;
+        opacity: 0.9;
+        height: 100%;
+        width: 100%;
+      }
+      section {
+        /* background image ki bajah se position relative kiya hai */
+        /* position: relative; */
+        width: 100%;
+        height: 40vh;
+      }
+      section h1 {
+        text-align: center;
+        margin: 90px;
+      }
+      section p {
+        text-align: center;
+        margin: 90px;
+      }
+      section p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding: 2px 110px;
+      }
+      section h1 {
+        font-size: 35px;
+        margin-bottom: 5px;
+      }
+      section div {
+        width: 10vw;
+      }
+      section .btn {
+        margin: auto;
+        padding: 15px;
+      }
+      section input {
+        padding: 2px 8px;
+        font-size: 15px;
+        border: 2px solid white;
+        border-radius: 8px;
+        background-color: red;
+        cursor: pointer;
+      }
+      div h2 {
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+      }
+      .container {
+        display: flex;
+        margin: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+      .box {
+        border: 3px solid black;
+        background-color: rgb(201, 196, 196);
+        width: 33rem;
+        height: 350px;
+        margin: 20px;
+        margin-top: 2px;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .box img {
+        width: 10rem;
+        margin-top: 20px;
+      }
+      .box h3 {
+        color: black;
+      }
+      #extra {
+        width: 9rem;
+      }
+      .box p {
+        margin-top: 15px;
+        color: black;
+        padding: 5px;
+      }
+      .bada::before {
+        content: "";
+        background: url("https://cdn.pixabay.com/photo/2017/07/07/12/31/lime-2481346_1280.jpg");
+        position: absolute;
+        z-index: -1;
+        opacity: 0.4;
+        height: 174px;
+        width: 100%;
+      }
+      .bada{
+        position: relative;
+      }
+      .company {
+        margin-top: 25px;
+        display: flex;
+        /* border: 2px solid red; */
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .client {
+        color: black;
+        text-align: center;
+        font-size: 25px;
+      }
+      .sticker img {
+        width: 100px;
+        height: 100px;
+        padding: 0px 33px;
+      }
+      .for::before {
+        content: "";
+        background: url("https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_1280.jpg")
+          no-repeat;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.89;
+        height: 100%;
+        width: 100%;
+      }
+      .frm {
+        display: flex;
+        margin: auto;
+        width: 70vw;
+        height: 70vh;
+        justify-content: center;
+        /* border: 2px solid blue; */
+      }
+      form div {
+        color: white;
+      }
+      form input {
+        padding-left: 10px;
+        border-radius: 8px;
+        width: 40vw;
+        height: 5vh;
+        margin: 15px 0px;
+        margin-top: 0px;
+      }
+      #text {
+        height: 8vh;
+      }
+      form button {
+        color: white;
+        width: 40vw;
+        border: 2px solid rgb(181, 177, 177);
+        height: 5vh;
+        margin: auto;
+        border-radius: 8px;
+        background-color: rgb(143, 12, 12);
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="/image.html/logo.jpg" alt="" />
+          </div>
+            <div class="items"><a href="#">Home</a></div>
+            <div class="items"><a href="#">Services</a></div>
+            <div class="items"><a href="#">About</a></div>
+            <div class="items"><a href="#">Contact</a></div>
+        </nav>
+      </header>
+      <section>
+        <h1>Welcome to my Website</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          voluptate veritatis explicabo aut, magni esse recusandae, nobis rem,
+          odit blanditiis vitae laborum saepe non.
+        </p>
+        <div class="btn">
+          <input type="button" value="Order now" />
+        </div>
+      </section>
+    </article>
+    <div class="heading">
+      <h2>Our Services</h2>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg"
+          alt=""
+        />
+        <h3>Food Ordering</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eos
+          deleniti facilis et nulla. Deleniti iure quas illo esse fuga facilis
+          soluta porro nam, praesentium repellendus iusto a minima
+          exercitationem
+        </p>
+      </div>
+      <div class="box">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/03/26/11/53/hors-doeuvre-2175326_1280.jpg"
+          alt=""
+        />
+        <h3>Catering</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis est
+          quod temporibus repellendus, dolorum, laborum eius itaque doloremque,
+          iusto provident ad magni minima accusantium? Illum nisi excepturi id
+          alias officiis?
+        </p>
+      </div>
+      <div class="box" id="box3">
+        <img
+          id="extra"
+          src="https://cdn.pixabay.com/photo/2016/05/30/14/10/delivery-guy-1424808_1280.png"
+          alt=""
+        />
+        <h3>Bulk Ordering</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          reprehenderit dolor nobis tempora. Incidunt dolore enim sequi. Odio
+          placeat, recusandae, deleniti distinctio tempora praesentium dolorum,
+          esse.
+        </p>
+      </div>
+    </div>
+    <div class="bada">
+      <h2 class="client">Our Clients</h2>
+      <div class="company">
+        <div class="sticker">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/1024px-Skype_logo.svg.png"
+            alt=""
+          />
+        </div>
+        <div class="sticker">
+          <img
+            src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg"
+            alt=""
+          />
+        </div>
+        <div class="sticker">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png"
+            alt=""
+          />
+        </div>
+        <div class="sticker">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/1024px-Skype_logo.svg.png"
+            alt=""
+          />
+        </div>
+        <div class="sticker">
+          <img
+            src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="for">
+      <div class="last">
+        <h2>Contact Us</h2>
+      </div>
+
+      <div class="frm">
+        <form action="">
+          <div>
+            Name
+            <br />
+            <input type="text" id="name" placeholder="enter name" />
+          </div>
+          <div>
+            Email
+            <br />
+            <input type="email" id="email" placeholder="enter email" />
+          </div>
+          <div>
+            Phone number
+            <br />
+            <input type="number" id="number" placeholder="enter number" />
+          </div>
+          <div>
+            Message
+            <br /><input
+              type="text"
+              id="text"
+              placeholder="write your message here"
+            />
+          </div>
+          <div>
+            <button class="btn">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
